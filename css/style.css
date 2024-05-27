@@ -177,6 +177,7 @@ caption, caption>strong, caption>p, .scHdn, .txtHidden, legend {position:absolut
 .tableTouchArea{position:absolute;background-color:rgba(0,0,0,0.3);width:100%;height:100%;left:0;top:0;}
 .tableTouchArea .tableScrollTouch{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%); width:85px;height:85px;background:url(../img/common/icon_tableTouch.png) no-repeat center center;background-size: 100% auto;opacity:0.7;}
 
+header .back img {height:44px}
 
 /*dot*/
 .txtList.dot>li+li {margin-top: 11px;}
@@ -267,6 +268,8 @@ caption, caption>strong, caption>p, .scHdn, .txtHidden, legend {position:absolut
 
 @media only screen and (max-width:767px){
     .mbBr {display:block;}
+    
+    header .back img {height:25px} 
     .inner {padding:0 40px;}
     header .logo>a span {display:block;}
     header .logo>a span img {height:20px;}
