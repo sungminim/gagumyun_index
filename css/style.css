@@ -98,7 +98,7 @@ header .inner {display:flex;justify-content: space-between;align-items: center;}
 .mDown .btnArea {display:flex;gap:25px;margin-top:50px;}
 .mDown .btnArea a {display:flex;align-items: center;justify-content: center;width:313px;height:73px;border-radius: 15px;background:#004537;;font-size: 26px;font-weight: 700;color:#fff;;}
 .mDown .btnArea a i {display:block;margin-right: 10px;font-size: 0;}
-.mDown .btnArea a.apple i {margin-top:6px;}
+.mDown .btnArea a.apple i {margin-top:0px;}
 
 footer {padding:84px 0;}
 footer .inner {display:flex;justify-content: space-between;align-items: flex-start;}
@@ -277,6 +277,7 @@ header .back img {height:44px}
 
     header {border-bottom:0}
     #container {padding-top:30px;}
+    .mDown .btnArea a.apple i {margin-top:-1px;margin-right: 15px;}
     .mIntro .tit {color:#D7B15E;word-break: break-word;width:270px;display:block;}
     header .link {display:none;}
 
